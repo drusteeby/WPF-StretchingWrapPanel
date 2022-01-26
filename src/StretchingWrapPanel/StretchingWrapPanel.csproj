@@ -1,8 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0-windows; net5.0-windows; net48;</TargetFrameworks>
+    <TargetFrameworks>net5.0-windows; net48;</TargetFrameworks>
     <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Dru Steeby</Authors>
+    <Company />
+    <Copyright>2022</Copyright>
+    <PackageProjectUrl>https://github.com/drusteeby/WPF-StretchingWrapPanel</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/drusteeby/WPF-StretchingWrapPanel.git</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
